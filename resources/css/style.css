@@ -1,0 +1,240 @@
+
+/* COMBAK: Universal */
+html {
+font-size: 18px;
+line-height: 1.4rem;
+}
+
+body {
+  font-family: helvetica;
+}
+
+h6{
+  font-weight: bold;
+}
+/* COMBAK: Navbar */
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-nav{
+  display: none;
+}
+media only screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
+  .nav{
+    display: none;
+  }
+
+  .mobile-nav{
+    display: block;
+  }
+}
+/* COMBAK: Banner */
+
+.content{
+padding-top: 2rem;
+}
+
+
+.Banner{
+  display: flex;
+  flex-direction: column;
+  position: static;
+  background-color: #59b493;
+  color: white;
+  height: 20rem;
+  margin-top: 3.5rem;
+  margin-left: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Banner h1{
+  font-weight: bold;
+}
+
+#Banner_img{
+  height: 27rem;
+  width: auto;
+}
+
+@media only screen and ( max-width: 480px){
+  .Banner{
+    margin-top: 0;
+    margin-left: 0;
+    height: 10rem;
+  }
+
+  #Banner_img{
+    display: none;
+  }
+}
+/* COMBAK: Über mich */
+
+#border {
+  display: flex;
+  margin-top: 2rem;
+  border-right: 3px solid;
+  border-color: #59b493;
+  justify-content: flex-end;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.about{
+  padding: 1rem 0;
+}
+
+.story{
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 480px){
+#about_mobile{
+  display: flex;
+  flex-direction: column;
+}
+
+.about_headline{
+  text-align: center;
+}
+
+#border{
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  border-color: #59b493;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #59b493;
+}
+#story_content{
+  padding-top: 1rem;
+}
+}
+/* COMBAK: skills */
+
+.skillset{
+  height: 16rem;
+}
+
+.skills{
+  display: flex;
+  background-color: #59b493;
+  color: white;
+  height: 25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills h2{
+  border-top: 2px solid #E6E6E6;
+  border-bottom: 2px solid #E6E6E6;
+}
+
+.skills_img{
+  height: 5rem;
+  width: 5rem;
+}
+
+.coding{
+  display: flex;
+  padding-bottom: 3rem;
+}
+
+.CMS{
+  display: flex;
+  padding-bottom: 3rem;
+}
+
+.Design{
+  display: flex;
+
+}
+
+.skill_list{
+  padding-left: 2rem;
+}
+
+.skill_list p{
+  text-align: center;
+  font-weight: bold;
+  color: #59b493;
+}
+
+@media only screen and (max-width:480px){
+  .skills{
+    height: 12.5rem;
+  }
+
+  .skillsset{
+    padding-top: 1rem;
+  }
+}
+/* COMBAK: Portfolio */
+
+#Portfolio{
+  margin-top: 25rem;
+}
+
+.Projekte{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+
+.Projekte h1{
+  border-top: 3px solid #59b493;
+  border-bottom: 3px solid #59b493;
+}
+
+.btn-primary{
+  background-color: #59b493;
+}
+@media only screen and (max-width:480px){
+  .Projekte{
+    height: 0;
+    padding-right: 0;
+  }
+
+  #Portfolio_m{
+    margin-top: 24rem;
+  }
+}
+/* COMBAK: Kontakt */
+
+.Kontakt{
+  background-color: #59b493;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+}
+
+.Kontaktdaten{
+  background-color: white;
+  position: absolute;
+  opacity: 0.8;
+  padding: 2rem 2rem;
+}
+
+@media only screen and (max-width:480px){
+  .Kontakt{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 20rem;
+
+  }
+
+
+}
