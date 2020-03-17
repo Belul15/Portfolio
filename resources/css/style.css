@@ -179,9 +179,6 @@ padding-top: 2rem;
 }
 /* COMBAK: Portfolio */
 
-#Portfolio{
-  margin-top: 25rem;
-}
 
 .Projekte{
   width: 100%;
@@ -206,8 +203,8 @@ padding-top: 2rem;
     padding-right: 0;
   }
 
-  #Portfolio_m{
-    margin-top: 24rem;
+  #Portfolio{
+    margin-top: 25rem;
   }
 }
 /* COMBAK: Kontakt */
