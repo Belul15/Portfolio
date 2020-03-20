@@ -18,8 +18,16 @@ h6{
   display: flex;
   justify-content: space-between;
 }
+
+.navbar{
+  opacity: 0.8;
+}
 .mobile-nav{
   display: none;
+}
+
+.navlink{
+  color: #59b493;
 }
 media only screen and (max-width: 480px) {
   html {
@@ -215,6 +223,7 @@ padding-top: 2rem;
   justify-content: center;
   align-items: center;
   height: 25rem;
+  padding-right: 15rem;
 }
 
 .Kontaktdaten{
