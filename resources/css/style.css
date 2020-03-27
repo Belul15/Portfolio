@@ -28,8 +28,9 @@ h6{
 
 .navlink{
   color: #59b493;
+  font-weight: bold;
 }
-media only screen and (max-width: 480px) {
+media only screen and (max-width: 520px) {
   html {
     font-size: 16px;
   }
@@ -71,7 +72,7 @@ padding-top: 2rem;
   width: auto;
 }
 
-@media only screen and ( max-width: 480px){
+@media only screen and ( max-width: 520px){
   .Banner{
     margin-top: 0;
     margin-left: 0;
@@ -101,7 +102,7 @@ padding-top: 2rem;
   padding-bottom: 1rem;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 520px){
 #about_mobile{
   display: flex;
   flex-direction: column;
@@ -141,7 +142,7 @@ padding-top: 2rem;
   align-items: center;
 }
 
-.skills h2{
+.skills h1{
   border-top: 2px solid #E6E6E6;
   border-bottom: 2px solid #E6E6E6;
 }
@@ -176,7 +177,7 @@ padding-top: 2rem;
   color: #59b493;
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:520px){
   .skills{
     height: 12.5rem;
   }
@@ -205,7 +206,7 @@ padding-top: 2rem;
 .btn-primary{
   background-color: #59b493;
 }
-@media only screen and (max-width:480px){
+@media only screen and (max-width:520px){
   .Projekte{
     height: 0;
     padding-right: 0;
@@ -233,7 +234,7 @@ padding-top: 2rem;
   padding: 2rem 2rem;
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:520px){
   .Kontakt{
     display: flex;
     justify-content: flex-start;
